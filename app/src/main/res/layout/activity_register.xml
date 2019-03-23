@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#dccbce"
+    tools:context=".RegisterActivity">
+
+    <TextView
+        android:id="@+id/reg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginRight="25dp"
+        android:text="Register"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:id="@+id/email"
+        android:inputType="textEmailAddress"
+        android:layout_alignTop="@+id/reg"
+        android:layout_marginTop="75dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:id="@+id/password"
+        android:inputType="textPassword"
+        android:layout_alignTop="@+id/email"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/register"
+        android:text="Register"
+        android:textColor="#ccf2cf"
+        android:textStyle="bold"
+        android:background="@drawable/roundshapebutton"
+        android:layout_alignTop="@+id/password"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="120dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp" />
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginBottom="60dp"
+        android:background="@drawable/roundshapebutton"
+        android:paddingLeft="35dp"
+        android:paddingRight="35dp"
+        android:text="Back to Signup"
+        android:textStyle="bold"
+        android:textColor="#ccf2cf"/>
+
+</RelativeLayout>

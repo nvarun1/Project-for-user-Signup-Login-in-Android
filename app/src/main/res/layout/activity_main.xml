@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#dccbce"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign In"
+        android:textColor="@color/colorPrimaryDark"
+        android:id="@+id/signin"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="email id"
+        android:layout_alignTop="@+id/signin"
+        android:layout_marginTop="75dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="password"
+        android:inputType="textPassword"
+        android:layout_alignTop="@+id/email"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+         />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/login"
+        android:text="Login"
+        android:textStyle="bold"
+        android:textColor="#ccf2cf"
+        android:background="@drawable/roundshapebutton"
+        android:layout_alignTop="@+id/password"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Not a Member. Register for Free!"
+        android:textSize="17dp"
+        android:textStyle="italic"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_alignBottom="@+id/register"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginBottom="60dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/register"
+        android:text="Register"
+        android:textStyle="bold"
+        android:textColor="#ccf2cf"
+        android:background="@drawable/roundshapebutton"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginBottom="60dp"
+        android:layout_alignParentBottom="true" />
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/progress_circular"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:elevation="5dp"
+        android:visibility="gone"
+        />
+
+</RelativeLayout>

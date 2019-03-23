@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfileActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="I have entered the Profie Section. Do Your Task here."
+        android:textColorHint="@color/colorPrimaryDark"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="100dp"
+        android:textStyle="bold"
+        android:textSize="40dp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="exit"
+        android:layout_marginTop="15dp"
+        android:id="@+id/exit"/>
+
+</android.support.constraint.ConstraintLayout>

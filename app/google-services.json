@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "134861690685",
+    "firebase_url": "https://letspoll-62cc0.firebaseio.com",
+    "project_id": "letspoll-62cc0",
+    "storage_bucket": "letspoll-62cc0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:134861690685:android:ef79d9a21d3fceb5",
+        "android_client_info": {
+          "package_name": "com.example.letspoll"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "134861690685-4dnivaqr6nigd8659s14tj0dep73a4s8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.letspoll",
+            "certificate_hash": "186aeafa676acde9a4e9c866c68a2e1a1486478c"
+          }
+        },
+        {
+          "client_id": "134861690685-sgpv2r8vi5ble4n3lirsja30k5kdumaa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZQSRqsx6EFkIFNrMSobL07t92rnAzbQw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "134861690685-sgpv2r8vi5ble4n3lirsja30k5kdumaa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
